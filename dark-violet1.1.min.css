@@ -3,18 +3,25 @@ body {
     color: #e6e6e6 !important;
 }
 
-.card, .list-group-item {
+.card {
     background-color: #3a3a3a !important;
 }
 
 .list-group-item {
-    color:#e6e6e6 !important;
+    background-color: #3a3a3a;
+    color:#e6e6e6;
 }
 
 .list-group-item:hover {
     color:#e6e6e6 !important;
-    background-color: #444444 !important;
+    background-color: #444444;
 }
+
+
+.list-group-item-action.active {
+    background-color: #bf112b;
+}
+
 
 a {
     color: #a6a2e4 !important;
@@ -25,7 +32,7 @@ a:hover {
     text-decoration: none !important;
 }
 
-.nav-drawer {
+#nav-drawer {
     background-color: #1E1E1E !important;
 }
 
@@ -40,5 +47,9 @@ a:hover {
 .btn-secondary {
     background-color: #999999 !important;
     border-color: #999999 !important;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
 }
 
