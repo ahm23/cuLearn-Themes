@@ -3,6 +3,15 @@ body {
     color: #e6e6e6 !important;
 }
 
+a {
+    color: #a6a2e4;
+}
+
+a:hover {
+    color: #e7f2ff !important;
+    text-decoration: none !important;
+}
+
 .card {
     background-color: #3a3a3a !important;
 }
@@ -23,14 +32,6 @@ body {
 }
 
 
-a {
-    color: #a6a2e4 !important;
-}
-
-a:hover {
-    color: #e7f2ff !important;
-    text-decoration: none !important;
-}
 
 #nav-drawer {
     background-color: #1E1E1E !important;
